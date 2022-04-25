@@ -1,0 +1,10 @@
+{
+  "contracts": {
+    "contracts/MyContract.sol:MyContract": {
+      "abi": "[{\"constant\":true,\"inputs\":[],\"name\":\"myFunc\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}]",
+      "bin": "6080604052348015600f57600080fd5b50607f8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80637eed017214602d575b600080fd5b60336045565b60408051918252519081900360200190f35b60379056fea265627a7a72315820e983695009a2473d7c848e72c9b14688b121b799856293d78d64de608af20a8064736f6c63430005100032",
+      "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"myFunc\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/MyContract.sol\":{\"content\":\"pragma solidity ^0.5.16;\\n\\ncontract MyContract {\\n\\tfunction myFunc() pure external returns (uint256) {\\n\\t\\treturn 55;\\n\\t}\\n}\",\"keccak256\":\"0x8f8e6a3403a44db2b1c5a48debb704b6410bf79e351c901ab7f2b2922d99d184\"}},\"version\":1}"
+    }
+  },
+  "version": "0.5.16+commit.9c3226ce.Darwin.appleclang"
+}

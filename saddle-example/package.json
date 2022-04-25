@@ -1,0 +1,9 @@
+{
+  "name": "saddle-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eth-saddle": "^0.1.25"
+  }
+}
